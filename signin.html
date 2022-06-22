@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Sign In & Sign UP</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+  <!-- Icon -->
+  <link href="logo1.png" rel="icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/58ee86d5f5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="signin.css">
+
+</head>
+<body>
+  <div class="bg-image">
+  <div class="cross_btn">
+    <a href="Home1.html"><i class="fa fa-times fa-2x"></i></a>
+  </div>
+  <div class="container" id="container">
+    <div class="form-container sign-up-container">
+      <form action="connect.php" method="POST">
+          <span class="ca"><h1>Create Account</h1></span>
+          <div class="social-container">
+              <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+              <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <span style="padding-bottom: 5px">Or Use Your Email For Registration</span>
+          <div class="create-account-form">
+            <input type="text" placeholder="First Name"  id="firstName" name="firstName" autofocus/>
+            <input type="text" placeholder="Last Name"  id="lastName" name="lastName" autofocus/>
+
+            <input type="email" placeholder="Email" id="email" name="email" />
+
+            <input type="password" placeholder="Password" id="password" name="password"/>
+
+            <input type="tel" placeholder="Mobile No." id="mob" name="mob"/>
+
+            <input type="date" placeholder="DOB" id="dob" name="dob">
+            <!--<input type="password" placeholder="Re-Type Password" id="rpass" name="rpass"/>-->
+          </div>
+          <span style="padding-top: 15px"><button type="submit">Sign Up</button></span></html>
+      </form>
+    </div>
+
+    <div class="form-container sign-in-container">
+      <form action="login.php" method="POST">
+            <h1>Sign in</h1>
+            <div class="social-container">
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <span>Or Use Your Account</span>
+            <input type="email" placeholder="Email" name="email"/>
+            <input type="password" placeholder="Password" name="password"/>
+            <span style="padding-top: 10px"><button type="submit">Sign In</button></span>
+            <a href="#">Forgot Your Password?</a>
+        </form>
+    </div>
+
+    <div class="overlay-container">
+      <div class="overlay">
+          <div class="overlay-panel overlay-left">
+              <h1>Welcome Back!</h1>
+              <p>
+                  To Keep Connected With Us Please Login With Your Personal Information.
+              </p>
+              <button class="ghost" id="signIn">Sign In</button>
+          </div>
+          <div class="overlay-panel overlay-right">
+              <h1>Hello, Parents!</h1>
+              <p>Come Join Tutor Community! <br> Lets Set Up Your Account.</p>
+              <button class="ghost" id="signUp">Sign Up</button>
+          </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+  <script>
+    const signUpButton = document.getElementById('signUp');
+    const signInButton = document.getElementById('signIn');
+    const container = document.getElementById('container');
+
+    signUpButton.addEventListener('click', () => {
+        container.classList.add('right-panel-active');
+    });
+
+    signInButton.addEventListener('click', () => {
+        container.classList.remove('right-panel-active');
+    });
+  </script>
+
+</body>

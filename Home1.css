@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+    
+}
+
+
+body{
+    background: #f2f2f2;
+    overflow-x: hidden;
+}
+
+.hero-image {
+    background-image: url('home2.png' ) !important;
+    width: 100% !important;
+    height: 750px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    position: relative !important;
+    z-index: 0 !important;
+  }
+  .hero-text {
+    text-align: left !important;
+    position: absolute !important;
+    top: 175px !important;
+    left: 25% !important;
+    transform: translate(-50%, -50%) !important;
+    color: white !important;
+    font-size: 1.3vw !important;
+    
+  }
+.parent-review .column {
+    float: left;
+    }
+.parent-review .left {
+    width: 33.3333333%;
+}
+
+.parent-review .middle {
+    width: 33.3333333%;
+}
+    
+.parent-review .right {
+    width: 33.3333333%;
+}
+
+.parent-review .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1.section-heading{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #424242;
+    font-weight: normal;
+    z-index: 9 !important;
+}
+.test-card{
+    text-align: center;
+    margin-top: 4rem;
+}
+.test-card img {
+    border-radius: 50%;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.349);
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    transition: all 0.3s ease-in-out;
+}
+.test-card h3 {
+    margin: 0;
+    color: #626262;
+    margin-top: 25px;
+    position: relative;
+}
+.test-card p {
+    color: #3b3b3b;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: 5rem;
+    font-size: 1vw;
+}
+.parallax {
+    /* The image used */
+    background-image: url("parallax1.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+.about-us .columnleft {
+    float: left;
+    width: 50%;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    position: relative;
+    color: #3b3b3b;
+
+}
+.about-us .column {
+    float: left;
+    width: 50%;
+
+}
+.about-u .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h1.heading{
+    position: relative;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #424242;
+    font-weight: normal;
+    z-index: 9 !important;
+}
+
+/*contact us*/
+.column {
+    float: left;
+    height: 50%;
+    }
+
+    /* Set width length for the left, right and middle columns */
+    .left {
+    width: 50%;
+    /*text-align: center*/
+    }
+
+   /* .middle {
+    width: 30%;
+    }*/
+    
+    .right {
+    width: 50%;
+    text-align: center;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+#sec1{
+    background-color: #2e3047;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

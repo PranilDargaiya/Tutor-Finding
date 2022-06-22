@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin-left: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+    
+}
+
+
+body{
+    overflow-x: hidden;
+}
+nav{
+    margin: 0;
+    background: #2e3047 !important;
+    top: 0 !important;
+    z-index: 100 !important;
+    position: fixed !important;
+    width: 100% !important;
+}
+nav:after{
+    margin: 0;
+    content: '' !important;
+    clear: both !important;
+    display: table !important;
+}
+nav .logo{
+    margin: 0;
+    float: left !important;
+    color: white !important;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    line-height: 70px !important;
+    padding-left: 40px !important;  
+}
+.menu{
+    margin: 0;
+    float: right !important;
+    list-style: none !important;
+    margin-right: 40px !important;
+    position: relative !important;
+}
+.item{
+    margin: 0;
+    float: left !important;
+    background: transparent !important;
+    margin: 0 5px !important;
+}
+.item a{
+    margin: 0;
+    color: white !important;
+    text-decoration: none !important;
+    line-height: 70px !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    padding: 8px 15px !important;
+
+}
+.item a:hover{
+    margin: 0;
+    color:cyan !important;
+    border-radius: 50px !important;
+    box-shadow: 0 0 5px #33ffff,
+                0 0 5px #33ffff !important;
+}
+.subitem a{
+    margin: 0;
+    text-align: center !important;
+    line-height: 50px !important;
+    background: #2e3047 !important;
+}
+.subitem a:hover{
+    margin: 0;
+    color:#33ffff !important;
+    box-shadow: none !important;
+}
+.submenu{
+    margin: 0;
+    position: absolute !important;
+    top: 90px !important;
+    background: #2e3047 !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: top .3s !important;
+}
+.subsubmenu{
+    margin: 0;
+    position: absolute !important;
+    top: 90px !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: top .3s !important;
+}
+.subitem:hover > ul{
+    margin: 0;
+    top: 50px !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.item:hover > ul{
+    margin: 0;
+    top: 70px !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.subitem{
+    margin: 0;
+    position: relative !important;
+    margin: 0  !important;
+    height: 50px !important;
+    width: 170px !important;
+    float: none !important;
+    display: list-item !important;
+    border-bottom: 1px solid rgba(0,0,0,0.3) !important;
+}
+.subsubitem{
+    margin: 0;
+    position: relative !important;
+    float: none !important;
+    margin: 0 !important;
+    left: 170px !important;
+    border-bottom: 1px solid rgba(0,0,0,0.3) !important;
+    top: -50px !important;
+    display: list-item !important;
+    background: #2e3047 !important;
+    
+}
+.button{
+    margin: 0;
+    float: left !important;
+    background:transparent !important;
+    margin: 0 5px !important;
+}
+.button a{
+    margin: 0;
+    color: white !important;
+    text-decoration: none !important;
+    line-height: 70px !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    padding: 8px 15px !important; 
+    color:cyan !important;
+    border-radius: 50px;
+    box-shadow: 0 0 5px #33ffff,
+                0 0 5px #33ffff !important;
+
+}
+.button a:hover{
+    margin: 0;
+    text-decoration: none !important;
+    transition: all .25s !important;
+    color:white !important;
+    background: #3bba9c  !important;
+}

@@ -1,0 +1,254 @@
+body,html{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.column {
+    float: left;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+.left {
+    width: 33.3333333333%;
+}
+
+.middle {
+    width: 33.3333333333%;
+}
+
+.right {
+    width: 33.3333333333%;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container {
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: #2E3047;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.8);
+  }
+  
+  .container:hover {
+    height: 460px;
+    width: 350px;
+    border-radius: 15px;
+  }
+  
+  .container .wrapper img {
+    position: relative;
+    z-index: 20;
+    border-radius: 50%;
+    display: block;
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3BBA9C;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin: 20px auto;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  
+  .container:hover .wrapper img.active {
+    height: 460px;
+    width: 350px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .wrapper .title {
+    color: #3BBA9C;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+    line-height: 25px;
+  }
+  
+  .wrapper .place {
+    color: #3BBA9C;
+    font-size: 17px;
+    line-height: 0;
+    margin: 10px 0;
+  }
+  
+  .content {
+    color: #3BBA9C;
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 1px 20px 10px 20px !important;
+  }
+  
+  .content .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .buttons .btn {
+    height: 40px;
+    width: 350px;
+    margin: 0 5px;
+  }
+  
+  .buttons .btn button {
+    height: 100%;
+    width: 100%;
+    background: #3BBA9C;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .btn button:hover {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+  
+  .container .icons {
+    position: relative;
+    margin-top: -410px;
+    margin-left: 5px;
+    list-style: none;
+  }
+  
+  .container .icons li {
+    height: 35px;
+    width: 35px;
+    margin: 5px 0;
+    opacity: 0;
+    margin-left: -100px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+  .container:hover .icons li {
+    opacity: 1;
+    margin-left: 5px;
+  }
+  
+  .container:hover .icons li:nth-child(2) {
+    -webkit-transition-delay: 0.2s;
+            transition-delay: 0.2s;
+  }
+  
+  .container:hover .icons li:nth-child(3) {
+    -webkit-transition-delay: 0.4s;
+            transition-delay: 0.4s;
+  }
+  
+  .container .icons li a {
+    color: #2E3047;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    background: #3BBA9C;
+    border-radius: 50%;
+    line-height: 35px;
+    transition: all 0.3s;
+    display: block;
+  }
+  
+  .container .icons li a:hover {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  /*# sourceMappingURL=home.css.map */
+
+
+  /*contact us
+.col {
+  float: left;
+  text-align: center;
+  }
+
+  /* Set width length for the left, right and middle columns 
+  .lt {
+  width: 50%;
+  /*text-align: center
+  }
+
+ /* .middle {
+  width: 30%;
+  }
+  
+  .r {
+  width: 50%;
+  text-align: center;
+  }
+
+  .row1:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+#sec1{
+  background-color: #2e3047;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+
+}
+.row1{
+  background-color: black;
+  height: 30%;
+  width: 100%;
+}*/
+
+
+/*contact us*/
+.col {
+  float: left;
+  text-align: center;
+  }
+
+.row1{
+  width: 100%;
+ 
+}
+
+  /* Set width length for the left, right and middle columns */
+  .lt {
+  width: 50%;
+  text-align: center;
+  }
+
+ /* .middle {
+  width: 30%;
+  }*/
+  
+  .r {
+  width: 50%;
+  text-align: center;
+  }
+
+  .row1:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+#sec1{
+  background-color: #2E3047;
+  color: white;
+  padding: 30px;
+  width: 100%;
+  
+}

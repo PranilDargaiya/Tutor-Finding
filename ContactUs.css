@@ -1,0 +1,34 @@
+/*contact us*/
+.column {
+    float: left;
+    height: 50%;
+    }
+
+    /* Set width length for the left, right and middle columns */
+    .left {
+    width: 50%;
+    /*text-align: center*/
+    }
+
+   /* .middle {
+    width: 30%;
+    }*/
+    
+    .right {
+    width: 50%;
+    text-align: center;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+#sec1{
+    background-color: #2e3047;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
